@@ -1,6 +1,7 @@
 dataset_type = 'CulaneDataset'
 data_root = "dataset/culane"
-crop_bbox = [0, 270, 1640, 590]
+#crop_bbox = [0, 270, 1640, 590]
+crop_bbox = [0, 650, 1920, 1080]
 img_scale = (800, 320)
 img_norm_cfg = dict(mean=[0.0, 0.0, 0.0], std=[255.0, 255.0, 255.0], to_rgb=False)
 compose_cfg = dict(bboxes=False, keypoints=True, masks=True)

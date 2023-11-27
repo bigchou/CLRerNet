@@ -38,8 +38,8 @@ model = dict(
         as_lanes=True,
         nms_thres=50,
         nms_topk=4,
-        ori_img_w=1640,
-        ori_img_h=590,
-        cut_height=270,
+        ori_img_w=1920,#1640,
+        ori_img_h=1080,#590,
+        cut_height=650,#270,
     ),
 )

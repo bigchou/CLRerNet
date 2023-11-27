@@ -62,5 +62,6 @@ def visualize_lanes(
     if concat_src:
         dst = np.concatenate((src, dst), axis=0)
     if save_path:
+        dst = cv2.resize(dst, (1920, 1080))
         cv2.imwrite(save_path, dst)
     return dst
